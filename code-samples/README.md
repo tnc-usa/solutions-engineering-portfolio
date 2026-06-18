@@ -4,9 +4,11 @@ Representative, runnable samples of the production tooling behind my writeups. T
 sanitized: synthetic IDs and configuration, no client data or business logic. Each is the
 pattern I run in production, written clean for reading.
 
-All three are Google Apps Script. To run one: create an Apps Script project, paste the file,
-replace the synthetic IDs in its config object with real ones, and add the OAuth scopes noted
-in the file header to `appsscript.json`.
+Three are Google Apps Script; one (`ai-proxy-worker.js`) is a Cloudflare Worker. For an Apps
+Script file: create a project, paste the file, replace the synthetic IDs in its config with
+real ones, and add the OAuth scopes noted in the header to `appsscript.json`. For the Worker:
+deploy with `wrangler`, set the secrets and KV bindings named in its header, and point your
+app's origin at it.
 
 ## Files
 
@@ -25,6 +27,14 @@ in the file header to `appsscript.json`.
   change-detected key-based writes so a re-run produces the same result, output paths anchored
   to a fixed root, and a dry-run flag on anything destructive. Safe to run every five minutes,
   indefinitely.
+
+- **ai-proxy-worker.js** - The pattern behind an AI-powered product (NewRoots USA): a
+  Cloudflare Worker that fronts the Anthropic Claude API for a public, unauthenticated web
+  app. Keeps the API key server-side and adds the controls a live AI endpoint needs: Turnstile
+  bot verification, a hard daily spend cap, per-IP rate limiting, input validation, KV response
+  caching, and graceful degradation. The model id sits in one constant, pinned to a
+  minor-version alias (not a dated snapshot) so a model retirement cannot silently 404 the
+  endpoint.
 
 ## A note on these samples
 
