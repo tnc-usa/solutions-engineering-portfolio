@@ -79,7 +79,7 @@ The TNC Software LLC site, on Cloudflare Pages with a Google Apps Script lead-ca
   version control for cloud-editor code, idempotency, and self-documenting systems across a
   production estate.
 
-- **[One person, ten production apps, and a desk full of AI agents](writeups/03_ai_native_solo_portfolio.md)**:
+- **[One person, thirteen production apps, and a desk full of AI agents](writeups/03_ai_native_solo_portfolio.md)**:
   what AI-native delivery means in practice, and what it does not.
 
 - **[Shipping an AI-powered product solo: the parts that aren't the AI](writeups/09_newroots_ai_native_product.md)**:
