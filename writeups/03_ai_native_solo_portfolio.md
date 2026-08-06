@@ -1,6 +1,6 @@
-One person, ten production apps, and a desk full of AI agents
+One person, thirteen production apps, and a desk full of AI agents
 
-I run a portfolio of about ten production applications, an internal documentation platform, and the DevOps tooling around them. Cash operations, route logistics, smart safes, ATMs, reconciliation, payments. I am one person. The way that is possible is that I build and operate primarily through AI agents, and I have built the infrastructure that makes them effective.
+I run a portfolio of thirteen production applications, an internal documentation platform, and the DevOps tooling around them. Cash operations, route logistics, smart safes, ATMs, reconciliation, payments. I am one person. The way that is possible is that I build and operate primarily through AI agents, and I have built the infrastructure that makes them effective.
 
 Let me be precise about what that does and does not mean, because the term gets abused.
 
