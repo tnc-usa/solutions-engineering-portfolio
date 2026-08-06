@@ -71,26 +71,20 @@ The TNC Software LLC site, on Cloudflare Pages with a Google Apps Script lead-ca
 
 ## Writeups
 
-- **Putting route optimization into production for cash-in-transit**: where a cloud route
-  optimizer ends and the real engineering begins, the constraint layer, allocating crews
-  under hard rules, and the idempotency that lets you automate without fear.
-  [LinkedIn](https://www.linkedin.com/pulse/putting-route-optimization-production-cash-in-transit-sean-newton-iafpe)
-  · [local copy](writeups/01_route_optimization.md)
+- **[Putting route optimization into production for cash-in-transit](writeups/01_route_optimization.md)**:
+  where a cloud route optimizer ends and the real engineering begins, the constraint layer,
+  allocating crews under hard rules, and the idempotency that lets you automate without fear.
 
-- **The engineering discipline low-code is missing**: version control for cloud-editor code,
-  idempotency, and self-documenting systems across a production estate.
-  [LinkedIn](https://www.linkedin.com/posts/sean-newton-a33a44402_lowcode-appsheet-googleappsscript-ugcPost-7472735238687965184-iTst)
-  · [local copy](writeups/02_engineering_discipline_lowcode.md)
+- **[The engineering discipline low-code is missing](writeups/02_engineering_discipline_lowcode.md)**:
+  version control for cloud-editor code, idempotency, and self-documenting systems across a
+  production estate.
 
-- **One person, ten production apps, and a desk full of AI agents**: what AI-native delivery
-  means in practice, and what it does not.
-  [LinkedIn](https://www.linkedin.com/posts/sean-newton-a33a44402_aiagents-appliedai-solutionsengineering-ugcPost-7472735885827162112--pR3)
-  · [local copy](writeups/03_ai_native_solo_portfolio.md)
+- **[One person, ten production apps, and a desk full of AI agents](writeups/03_ai_native_solo_portfolio.md)**:
+  what AI-native delivery means in practice, and what it does not.
 
-- **Shipping an AI-powered product solo: the parts that aren't the AI**: the operational shell
-  around a live LLM endpoint, server-side keys, spend caps, rate limits, caching, graceful
-  degradation, and why you pin a model alias rather than a dated snapshot.
-  [local copy](writeups/09_newroots_ai_native_product.md)
+- **[Shipping an AI-powered product solo: the parts that aren't the AI](writeups/09_newroots_ai_native_product.md)**:
+  the operational shell around a live LLM endpoint, server-side keys, spend caps, rate limits,
+  caching, graceful degradation, and why you pin a model alias rather than a dated snapshot.
 
 ## Code samples
 
@@ -142,5 +136,5 @@ configuration, no client data. See [code-samples/README.md](code-samples/README.
 ## Contact
 
 Sean Newton, Tennessee, USA
-[LinkedIn](https://www.linkedin.com/in/sean-newton-a33a44402) · sean@tnc-usa.com ·
-[tnc-usa.com](https://www.tnc-usa.com)
+sean@tnc-usa.com · [tnc-usa.com](https://www.tnc-usa.com) ·
+[newroots.tnc-usa.com](https://newroots.tnc-usa.com)
