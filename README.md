@@ -82,6 +82,12 @@ The TNC Software LLC site, on Cloudflare Pages with a Google Apps Script lead-ca
 - **[One person, thirteen production apps, and a desk full of AI agents](writeups/03_ai_native_solo_portfolio.md)**:
   what AI-native delivery means in practice, and what it does not.
 
+- **[I built the software for a job I had done myself](writeups/08_bali_pools_erp.md)**:
+  I started a pool business with a pickup and did the diagnosis and the repairs myself, then wrote
+  the ERP and the technician's field app six months in and sold the business eight years later.
+  Why the system came first and the growth followed it, and where the line really falls between
+  the part of an expert process you can turn into a question and the part you cannot.
+
 - **[Shipping an AI-powered product solo: the parts that aren't the AI](writeups/09_newroots_ai_native_product.md)**:
   the operational shell around a live LLM endpoint, server-side keys, spend caps, rate limits,
   caching, graceful degradation, and why you pin a model alias rather than a dated snapshot.
