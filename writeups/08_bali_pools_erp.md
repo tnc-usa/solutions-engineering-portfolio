@@ -107,11 +107,27 @@ that question correctly on his first day, and answering it correctly is most of 
 it puts the right pool in front of the person who can find the leak, with the ordinary explanations
 already ruled out and a week-by-week history of the level sitting behind it.
 
-What I did not encode was the second half: pressure-testing the lines, dye at the fittings, the
-listening gear. That stayed with the people who could do it. So the line worth drawing is not
-between judgment and repetition. It is between the part of an expert process you can turn into a
-question and the part you cannot turn into a question yet. Almost always, more of it is a question
-than you expect, and you only find that out by having done the work yourself.
+## Where I stopped on purpose
+
+I never encoded the second half: pressure-testing the lines, dye at the fittings, the listening
+gear. Partly that is because the technicians were trained on it and did not need a phone to tell
+them how to do their job. Mostly it is because of something the software could have done and
+should not.
+
+A system that can narrow a leak can also print a location, and the moment it prints one you have
+made a commitment. Open the ground and you often find the same line has failed in a second place,
+or that the failure is progressive and what you found is one symptom of it. The customer does not
+receive that as new information. He receives it as misdiagnosis, he refuses the change order, and
+he is not entirely unreasonable, because your own system told him where the leak was.
+
+So the automation stops at "escalate". Leak quotes were handled by people, in a meeting, after a
+thorough survey had established the primary site, and the quote was then engineered to carry the
+exposure of everything still unknown. That is a commercial decision rather than a technical one,
+and it is the part I would defend hardest if someone asked why the clever bit stops where it does.
+
+So the line worth drawing is not between judgment and repetition. It is between the part of an
+expert process you should turn into a question and the part you should not, and the second is not
+always the part you could not.
 
 ## Running it from somewhere else
 
