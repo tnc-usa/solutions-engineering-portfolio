@@ -7,8 +7,14 @@ optimization on Google Cloud Fleet Routing, and mobile capture for crews in the 
 
 The stack follows the problem. I have shipped on edge compute, on Google Cloud, and on
 low-code where low-code genuinely fits, and the interesting engineering is nearly always in
-knowing which of those a given layer actually needs. There is also a career sales record
-behind the engineering, so I can run the discovery as well as the build.
+knowing which of those a given layer actually needs.
+
+Three things sit behind that, and they are one career rather than three. Nearly two decades in
+design: CAD kitchens and fitted furniture, and then the regional agency for the design system
+itself. A sales record that runs from high-net-worth property through to enterprise B2B. And
+the engineering above. Designing a specification with a customer in front of you and pricing it
+while they watch is where the configurator instinct came from, and it is why I can run the
+discovery as well as the build.
 
 This repository is the hub for my written work and a set of representative, sanitized code
 samples from the systems described below. Client engagements are generalized: no client
