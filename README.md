@@ -51,10 +51,28 @@ after an adversarial security review I commissioned against my own build.
 **NewRoots USA** (live at [newroots.tnc-usa.com](https://newroots.tnc-usa.com))
 An AI-native PWA with seven tools for people settling in the US, localized across 24 origin
 countries. Hand-built vanilla-JS front end on Cloudflare Pages; a Worker holds the Anthropic
-Claude API key server-side and routes by cost across two models, with Turnstile bot
-verification, a hard daily spend cap, per-IP rate limiting, input validation, KV response
-caching and graceful degradation. Where AI was the wrong tool, a bundled 40,000-ZIP dataset
-does the sales-tax arithmetic client-side instead: free, instant, and impossible to get wrong.
+Claude API key server-side, with Turnstile bot verification, a hard daily spend cap, per-IP
+rate limiting, input validation, KV response caching and graceful degradation. Twice the
+right answer was to take the model out. A bundled 40,000-ZIP dataset does the sales-tax
+arithmetic client-side instead: free, instant, and impossible to get wrong. And the driving
+rules moved from a runtime AI call to authored static files, one per country, once a
+token-heavy language proved unable to finish inside the Worker's time limit: a Greek lookup
+went from three failed 26-second attempts to 43 milliseconds.
+
+**A betting assistant that never places a bet** (`betcha`, run live in September 2026, now mothballed)
+A personal tool for my own sports betting in Tennessee, where it is licensed. It reads prices
+from a licensed odds aggregator, removes the bookmaker's margin from a sharp reference price,
+flags the lines a sportsbook has mispriced against that consensus, sizes the stake by
+fractional Kelly, keeps the ledger, grades each bet from the scores, and records closing line
+value, which is the measure of whether the process works. Human-in-the-loop is the design:
+nothing in it logs in to a sportsbook or places a wager, and I placed every bet by hand. A
+Cloudflare Worker with D1, four cron jobs and a phone-first PWA; bet slips read from a
+screenshot by a Claude vision model; a metered API client with a budget floor that stops
+visibly rather than falling back to anything dearer; every sport, book and threshold a
+config row. Player props were built, measured, found to carry no more edge than the main
+markets, and left switched off. I mothballed it after a week of live use, because recording
+each bet twice, once at the book and once in the app, was a chore, and I wrote the revival
+procedure down before switching anything off.
 
 **Route optimization for cash-in-transit** (under NDA, described in general terms)
 A cloud optimizer returns an ordered list of stops, not a schedule an operation can run.
