@@ -93,6 +93,24 @@ three systems above are not built on it.
 The TNC Software LLC site, on Cloudflare Pages with a Google Apps Script lead-capture backend
 (honeypot-filtered, logged to Sheets, email notification).
 
+## Concepts in exploration
+
+Not built. Research, measurement and specification only.
+
+**A home-services marketplace built on a binding price**
+Recurring exterior property maintenance in the US, mowing first: the price quoted is the
+price paid, and payment is released on proof that the work was done. A viability assessment,
+a data-model specification and screen designs exist. There is no code yet, deliberately: a
+manual concierge test of the idea gates the build.
+
+**A courier that runs a timetable instead of a route**
+A subscription courier on a fixed circuit along one commercial road, serving only the
+right-hand side of each leg, so one up-and-down circuit covers both sides with no left turns
+across traffic. The constraint removes the vehicle-routing problem: a stop is a position along
+a line plus a side, so a manifest is a sort, and the service can publish a timetable rather
+than an estimated arrival. Corridor business density was measured from open map data with
+reproducible queries, and the measurement overturned the founding fixed-mileage design.
+
 ## Writeups
 
 - **[Putting route optimization into production for cash-in-transit](writeups/01_route_optimization.md)**:
